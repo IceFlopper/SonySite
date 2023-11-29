@@ -3,3 +3,86 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#Section1 {
+    height: 200px;
+    background-color: orange;
+}
+
+.Navigation {
+    height: auto;
+    background-color: black;
+}
+
+#SonyHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45px;
+}
+
+#divSonyLogo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#sonyLogo {
+    width: 100%;
+    height: auto;
+}
+
+#NavigationBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 75px;
+    background-color: white;
+}
+
+#LeftSide {
+    display: flex;
+    align-items: center;
+}
+
+#RightSide {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+#blueSonyLogo {
+    height: auto;
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#ulNavigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+#ulNavigation li {
+    margin-right: 15px;
+}
+#Sign\ In
+{
+    height:37px;
+    width: 85px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border: #35383d;
+    background-color: #35383d;
+    color: white;
+    border-radius: 10px;
+}
+.fa-magnifying-glass{
+
+}
