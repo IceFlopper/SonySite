@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
 #Section1 {
     height: auto;
@@ -94,26 +95,115 @@
 {
     margin-right: 20px;
 }
-  }
-#hero-banner{
-    height: 712px;
-    width: 1900px;
-    background-image: url("../Assets/deel-1/hero-banner.png");
+#section2{
 
+}
+#hero-banner{
+    display: flex;
+    justify-content: center;
+    height: 712px;
+    width: 100%;
+    background-image: url("../Assets/deel-1/hero-banner.png ");
+    background-size: cover;
+    font-family: "Arial", sans-serif;
+    background-position: center;
+}
+#HolidayGift h1{
+    font-size: 50px;
+    margin: 20px;
 }
 #HolidayGift{
-    color: whitesmoke;
-    margin-left: 550px;
-
-    text-align: center;
-    width: 800px;
-
+    font-size: 20px ;
 }
-#buttonHolidayGift{
+#HolidayGift button{
     background-color: red;
     color: whitesmoke;
     height: 40px;
     width: 120px;
-    border-radius: 15px;
+    border-radius: 25px;
+    margin: 20px;
+}
+#HolidayGift{
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    width: 800px;
+    margin-top: 20px;
+
 }
 
+#ImageBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+
+
+}
+#ImageBox img{
+    height: auto;
+    width: 270px;
+    margin: 15px 5px 15px 5px;
+    border-radius: 15px;
+    transition: ease 0.3s;
+    border: solid white 3px;
+    justify-content: space-around;
+    opacity: 70%;
+}
+#ImageBox img:hover{
+
+    box-shadow: 0 0 0 2px blue;
+    opacity: 100%;
+}
+#section2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+#sec2header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sec2middle{
+    display: flex;
+    flex-direction: row;
+
+}
+#sec2middle img{
+    width: 500px;
+    height: auto;
+}
+#leftsidemiddle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#leftsidemiddle h1, h5, button{
+    margin: 10px;
+}
+#sec2bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#sec2bottom div{
+    margin: 20px;
+}
+
+.boxsec2 img{
+    width: 200px;
+    height: auto;
+}
+.boxsec2large img
+{
+    width: 150px;
+    height: auto;
+}
