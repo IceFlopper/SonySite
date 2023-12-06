@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
 #Section1 {
     height: auto;
@@ -95,97 +94,7 @@
 {
     margin-right: 20px;
 }
-#Section1 {
-    height: auto;
-    background-color: orange;
-}
-
-.Navigation {
-    height: auto;
-    background-color: black;
-}
-
-#SonyHeader {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    height: 45px;
-}
-
-#divSonyLogo {
-    width: 100px;
-    height: auto;
-    margin-right: 10px;
-}
-
-#sonyLogo {
-    width: 100%;
-    height: auto;
-}
-
-#NavigationBar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 75px;
-    background-color: white;
-}
-
-.fa-chevron-down{
-    color: darkgray;
-}
-#LeftSide {
-    display: flex;
-    align-items: center;
-}
-
-#RightSide {
-    width: 15%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-
-}
-
-#blueSonyLogo {
-    height: auto;
-    width: 60px;
-    margin-left: 15px;
-    margin-right: 10px;
-}
-
-#ulNavigation {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: space-evenly;
-    font-family: Arial, sans-serif;
-    align-items: center;
-}
-#ulNavigation li {
-    margin-right: 15px;
-}
-#Sign\ In
-{
-    height:27px;
-    width: 85px;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    border: #35383d;
-    background-color: #35383d;
-    color: white;
-    border-radius: 18px;
-    margin-right: 20px;
-}
-.fa-solid
-{
-    margin-right: 20px;
-}
+  }
 #hero-banner{
     height: 712px;
     width: 1900px;
@@ -207,3 +116,4 @@
     width: 120px;
     border-radius: 15px;
 }
+
