@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
 #Section1 {
     height: auto;
@@ -95,3 +94,26 @@
 {
     margin-right: 20px;
 }
+  }
+#hero-banner{
+    height: 712px;
+    width: 1900px;
+    background-image: url("../Assets/deel-1/hero-banner.png");
+
+}
+#HolidayGift{
+    color: whitesmoke;
+    margin-left: 550px;
+
+    text-align: center;
+    width: 800px;
+
+}
+#buttonHolidayGift{
+    background-color: red;
+    color: whitesmoke;
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+}
+
